@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+}
+#container{
+    display:flex;
+    height:100vh;
+}
+#sidebar{
+    position:sticky;
+    background-color: rgb(19, 19, 19);
+    width:7.5rem;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+#black{
+    background-color: black;
+    padding:8.3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:170px;
+    padding-top:0px;
+}
+.glitch1{
+    position:fixed;
+    z-index: 1;
+    font-size: 6rem;
+    font-family: 'Lobster', cursive;
+    color:#cc0f39;
+    left:22px;
+    transition:0.3s;
+}
+.glitch2{
+    font-size: 6rem;
+    font-family: 'Lobster', cursive;
+    color:#0ffbf9;
+    font-weight: lighter;
+    margin-right:15px;
+    transition:0.3s;
+}
+.name{
+    font-family: 'Kalam', cursive;
+    color:white;
+    font-size: 25px;
+    margin-top:-11px;
+}
+.developer{
+    color:rgb(82, 79, 79);
+    font-family: 'Cinzel', serif;
+    font-size:12px;
+    font-weight: bold;
+}
+.pages{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(82, 79, 79);
+    gap:30px;
+}
+button{
+    font-size:15px;
+    background-color: rgb(19, 19, 19);
+    color:rgb(82, 79, 79);
+    border: 10px solid rgb(19, 19, 19) ;
+    font-family: 'Cinzel', serif;
+    font-family: 'Encode Sans', sans-serif;
+    transition:0.3s;
+}
+button:hover{
+    font-size:20px;
+    color:cyan;
+    cursor:pointer;
+}
+.links{
+    display: flex;
+}
+#main{
+    display:flex;
+    gap:10px;
+    flex-direction: column;
+    background-color: rgb(44, 42, 42);
+    width:100%;
+    padding-top:21px
+}
+.tags{
+    font-size:2rem;
+    font-family: 'Cinzel', serif;
+    font-family: 'Great Vibes', cursive;
+    color:rgb(83, 77, 77);
+}
+.intro{
+    font-size:5rem;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'Staatliches', cursive;
+    color:white;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding-left:81px;
+    margin-top:-20px;
+}
+#main>div{
+    margin-left:46px;
+}
+#main .body-tag{
+    margin-left:70px;
+}
+#main .h1-tag{
+    margin-left:95px;
+}
+.desc{
+    font-family: 'Cinzel', serif;
+    font-family: 'Encode Sans', sans-serif;
+    letter-spacing: 7px;
+    color:rgb(140, 130, 130);
+    font-weight: bold;
+    padding-left:81px;
+}
+#main .p-tag{
+    margin-left:95px;
+}
+a{
+    text-decoration:none
+}
+.initial *:hover{
+    color:white;
+}
+.alternate-glitch1{
+    position:relative;
+    color:#0ffbf9;
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+    font-weight: lighter;
+    left: 4px;
+}
+.alternate-glitch2{
+    position:relative;
+    color:#cc0f39;
+    left:7px;
+    font-family: 'Lobster', cursive;
+    font-size: 6rem;
+    font-weight: lighter;
+    left:-69px
+}
+.rest{
+    padding-left:0px
+}
+.name{
+    display:flex;
+    gap:10px;
+}
+.first{
+    margin-top:18px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    right:46px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.245);
+}
+.contact-info *{
+    display:flex;
+    flex-direction: column;
+    margin-top:25px;
+    margin-left: 15px;
+    color:rgb(82, 79, 79);
+    transition:0.3s;
+}
+.contact-info a i:hover{
+    font-size:25px;
+    color:cyan;
+    cursor:pointer;
+}
+.contact-info a{
+    margin-top:-5px;
+    margin-left:0px;
+}
+.heading{
+    font-size: 15px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+}
